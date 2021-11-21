@@ -16,10 +16,7 @@ class RainHeavyTest(srdata.SRData):
 
     def _set_filesystem(self, dir_data):
         super(RainHeavyTest, self)._set_filesystem(dir_data)
-        # self.apath = '../data/test/small/'
         self.apath = self.args.apath
         print(self.apath)
-        # self.dir_hr = os.path.join(self.apath, 'norain')
-        # self.dir_lr = os.path.join(self.apath, 'rain')
         self.dir_hr = self.args.dir_hr
         self.dir_lr = self.args.dir_lr

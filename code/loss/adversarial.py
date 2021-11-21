@@ -16,7 +16,6 @@ class Adversarial(nn.Module):
         self.gan_k = args.gan_k
         self.dis = discriminator.Discriminator(args)
         if gan_type == 'WGAN_GP':
-            # see https://arxiv.org/pdf/1704.00028.pdf pp.4
             optim_dict = {
                 'optimizer': 'ADAM',
                 'betas': (0, 0.9),
@@ -106,7 +105,3 @@ class Adversarial(nn.Module):
         bce_loss = bce_real + bce_fake
         return bce_loss
                
-# Some references
-# https://github.com/kuc2477/pytorch-wgan-gp/blob/master/model.py
-# OR
-# https://github.com/caogang/wgan-gp/blob/master/gan_cifar10.py

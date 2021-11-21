@@ -201,7 +201,6 @@ parser.add_argument('--attack_iters', default=50, type=int)
 parser.add_argument('--robust_epsilon', default=8, type=float)
 parser.add_argument('--robust_alpha', default=2, type=float)
 parser.add_argument('--restarts', default=1, type=int)
-#parser.add_argument('--norm', default='l_inf', type=str, choices=['l_inf', 'l_2'])
 parser.add_argument('--save_attack', action='store_true',
                     help='save attacked images together')
 parser.add_argument('--target', default='output', type=str, choices=['output', 'input','down_stream','down_stream_v2','residual'])
