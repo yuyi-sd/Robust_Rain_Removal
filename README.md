@@ -1,13 +1,12 @@
 <div align="center">
 
 <h1>Towards Robust Rain Removal Against Adversarial Attacks: A Comprehensive Benchmark Analysis and Beyond</h1>
-<!-- # [CVPR 2022] Towards Robust Rain Removal Against Adversarial Attacks: A Comprehensive Benchmark Analysis and Beyond -->
 </div>
 
-[arxiv](https://arxiv.org/abs/2203.16931)
+[arxiv link](https://arxiv.org/abs/2203.16931)
 
 **Towards Robust Rain Removal Against Adversarial Attacks: A Comprehensive Benchmark Analysis and Beyond**
-<br>_Yi Yu, [Wenhan Yang](https://flyywh.github.io/), Yap-Peng Tan, Alex C. Kot_<br>
+<br>_[Yi Yu](https://github.com/yuyi-sd), [Wenhan Yang](https://flyywh.github.io/), Yap-Peng Tan, Alex C. Kot_<br>
 In CVPR'22
 
 ## Datasets
