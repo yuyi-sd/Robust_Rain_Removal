@@ -3,7 +3,7 @@
 ## Datasets
 We offer the test set of Rain100H `./data/test`and RainCityscapes  `./rain_cityscapes/test`.
 
-For the full dataset, flease refer to [Rain100H][https://www.icst.pku.edu.cn/struct/Projects/joint_rain_removal.html] and [RainCityscapes][https://team.inria.fr/rits/computer-vision/weather-augment/].
+For the full dataset, flease refer to [Rain100H](https://www.icst.pku.edu.cn/struct/Projects/joint_rain_removal.html) and [RainCityscapes][https://team.inria.fr/rits/computer-vision/weather-augment/].
 
 ## Requirement
 * GPU with memory size >= 24 GB
