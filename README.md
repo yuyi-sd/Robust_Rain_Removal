@@ -54,9 +54,11 @@ The generated results are in the folder: `./experiments`, and you can evaluate t
 
 ## Citation
 If you find our work useful for your research, please consider citing this paper:
-	@article{yu2022towards,
-	  title={Towards Robust Rain Removal Against Adversarial Attacks: A Comprehensive Benchmark Analysis and Beyond},
-	  author={Yu, Yi and Yang, Wenhan and Tan, Yap-Peng and Kot, Alex C},
-	  journal={arXiv preprint arXiv:2203.16931},
-	  year={2022}
-	}
+'''
+@article{yu2022towards,
+  title={Towards Robust Rain Removal Against Adversarial Attacks: A Comprehensive Benchmark Analysis and Beyond},
+  author={Yu, Yi and Yang, Wenhan and Tan, Yap-Peng and Kot, Alex C},
+  journal={arXiv preprint arXiv:2203.16931},
+  year={2022}
+}
+'''
