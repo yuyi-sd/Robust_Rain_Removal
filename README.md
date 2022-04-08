@@ -5,8 +5,9 @@
 </div>
 
 [arxiv](https://arxiv.org/abs/2203.16931)
+
 **Towards Robust Rain Removal Against Adversarial Attacks: A Comprehensive Benchmark Analysis and Beyond**
-<br>_Yi Yu, Wenhan Yang, Yap-Peng Tan, Alex C. Kot_<br>
+<br>_Yi Yu, [Wenhan Yang](https://flyywh.github.io/), Yap-Peng Tan, Alex C. Kot_<br>
 In CVPR'22
 
 ## Datasets
