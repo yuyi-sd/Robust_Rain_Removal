@@ -1,9 +1,10 @@
-# Robust_Rain_Removal
+# [CVPR 2022] Towards Robust Rain Removal Against Adversarial Attacks: A Comprehensive Benchmark Analysis and Beyond
+### [Paper](https://arxiv.org/abs/2203.16931)
 
 ## Datasets
 We offer the test set of Rain100H `./data/test`and RainCityscapes  `./rain_cityscapes/test`.
 
-For the full dataset, flease refer to [Rain100H](https://www.icst.pku.edu.cn/struct/Projects/joint_rain_removal.html) and [RainCityscapes][https://team.inria.fr/rits/computer-vision/weather-augment/].
+For the full dataset, flease refer to [Rain100H](https://www.icst.pku.edu.cn/struct/Projects/joint_rain_removal.html) and [RainCityscapes](https://team.inria.fr/rits/computer-vision/weather-augment/).
 
 ## Requirement
 * GPU with memory size >= 24 GB
@@ -40,4 +41,13 @@ For the full dataset, flease refer to [Rain100H](https://www.icst.pku.edu.cn/str
 	python robust.py --data_test RainHeavyTest  --ext img --pre_train ../experiment/MPRNet_R_SEADD_MB_robust_pgd_RainCityscapes100mm_half_e4/model/model_latest.pt --model MPRNet_R_SEADD_MB --test_only --save_results --save_gt --save_attack --save MPRNet_R_SEADD_MB_robust_pgd_test_RainCityscapes100mm_half_e4_8_lpips --n_GPUs 1 --attack_iters 20 --robust_epsilon 8 --robust_alpha 2 --attack_loss lpips --branch_reduction 4 --dir_data ../rain_cityscapes --apath ../rain_cityscapes/test/small/ --dir_hr ../rain_cityscapes/test/small/norain --dir_lr ../rain_cityscapes/test/small/rain100mm
 
 ## Evaluate the result
-The generated results are in the folder: `./experiments`, and you can evaluate the results by PSNR or SSIM. Images with suffix 'SR' are the clean outputs, images with suffix 'SR_attack' are the attacked outputs, images with suffix 'LR' are the clean inputs, images with suffix 'LR_attack' are the perturbed inputs, and images with suffix 'HR' are the groundtruth. For downstream tasks, please refer to the code of [SSeg][https://github.com/YeLyuUT/SSeg] and [Pedestron][https://github.com/hasanirtiza/Pedestron].
+The generated results are in the folder: `./experiments`, and you can evaluate the results by PSNR or SSIM. Images with suffix 'SR' are the clean outputs, images with suffix 'SR_attack' are the attacked outputs, images with suffix 'LR' are the clean inputs, images with suffix 'LR_attack' are the perturbed inputs, and images with suffix 'HR' are the groundtruth. For downstream tasks, please refer to the code of [SSeg](https://github.com/YeLyuUT/SSeg) and [Pedestron](https://github.com/hasanirtiza/Pedestron).
+
+## Citation
+If you find our work useful for your research, please consider citing this paper:
+	@article{yu2022towards,
+	  title={Towards Robust Rain Removal Against Adversarial Attacks: A Comprehensive Benchmark Analysis and Beyond},
+	  author={Yu, Yi and Yang, Wenhan and Tan, Yap-Peng and Kot, Alex C},
+	  journal={arXiv preprint arXiv:2203.16931},
+	  year={2022}
+	}
