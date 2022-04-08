@@ -5,6 +5,9 @@
 </div>
 
 [arxiv](https://arxiv.org/abs/2203.16931)
+**Towards Robust Rain Removal Against Adversarial Attacks: A Comprehensive Benchmark Analysis and Beyond**
+<br>_Yi Yu, Wenhan Yang, Yap-Peng Tan, Alex C. Kot_<br>
+In CVPR'22
 
 ## Datasets
 We offer the test set of Rain100H `./data/test`and RainCityscapes  `./rain_cityscapes/test`.
