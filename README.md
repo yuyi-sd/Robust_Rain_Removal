@@ -62,3 +62,6 @@ If you find our work useful for your research, please consider citing this paper
   year={2022}
 }
 ```
+
+## Contact
+If you have any questions, please feel free to contact us via yuyi0010@e.ntu.edu.sg.
