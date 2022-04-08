@@ -2,6 +2,7 @@
 
 <h1>Towards Robust Rain Removal Against Adversarial Attacks: A Comprehensive Benchmark Analysis and Beyond</h1>
 <!-- # [CVPR 2022] Towards Robust Rain Removal Against Adversarial Attacks: A Comprehensive Benchmark Analysis and Beyond -->
+</div>
 
 [arxiv](https://arxiv.org/abs/2203.16931)
 
